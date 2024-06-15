@@ -1,19 +1,28 @@
 {
-  "name": "dnd-frontend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "dnd",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sarafa2n/dnd-frontend.git"
+  "dependencies": {
+    "@vkontakte/vkui": "^6.1.1",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sarafa2n/dnd-frontend/issues"
-  },
-  "homepage": "https://github.com/Sarafa2n/dnd-frontend#readme"
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vkontakte/vkui-tokens": "^4.46.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
 }

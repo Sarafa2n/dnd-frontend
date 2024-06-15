@@ -1,0 +1,10 @@
+@import '@vkontakte/vkui-tokens/themes/paradigmBase/cssVars/declarations/onlyVariables.css'(prefers-color-scheme: light);
+@import '@vkontakte/vkui-tokens/themes/paradigmBaseDark/cssVars/declarations/onlyVariables.css'
+(prefers-color-scheme: dark);
+
+@import '@vkontakte/vkui-tokens/themes/paradigmBase/cssVars/declarations/onlyVariablesLocal.css';
+@import '@vkontakte/vkui-tokens/themes/paradigmBaseDark/cssVars/declarations/onlyVariablesLocal.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
